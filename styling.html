@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Styling</title>
+    <style>
+        #box, #hoverBox, #content {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            line-height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" onclick="changeColor()">Click me to change color</div>
+    <div id="hoverBox" onmouseover="hoverEffect()" onmouseout="removeHoverEffect()">Hover over me</div>
+    <button onclick="changeButtonStyle()">Click me to change style</button>
+    <div id="content">This is a content box.</div>
+    <script src="styling-script.js"></script>
+</body>
+</html>
